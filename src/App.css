@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #1D1D1C;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,11 +22,30 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main-title {
+  font-family: 'Nunito Sans', serif;
+  font-size: 7rem;
+}
+
+.circle-text {
+  color: #F3E45F;
+  font-family: 'Nunito Sans', serif;
+  font-size: 1rem;
+}
+
+.label-col {
+  margin-right:1rem;
+
+}
+
+.circle {
+	border-radius: 50%;
+	width: 6rem;
+  height: 6rem;
+  background-color: #F3E45F;
+}
+
+.circle:hover {
+  background-color: white;
+  border: blue;
 }
