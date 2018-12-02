@@ -1,51 +1,106 @@
-.App {
+body {
+  font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 { 
+  color: #fff;
+  padding: 0 6rem;
+  font-size: 2rem;
+  font-weight:bold;
+}
+
+h2 {
+  color:#161308;
   text-align: center;
+  font-size:2rem;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+h3 { 
+  color: #fff;
+  font-size: 1.5rem;
 }
 
-.App-header {
-  background-color: #1D1D1C;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* /////////////// */
+/* /////////////// */
+/* /////////////// */
+/* HEADER */
+/* /////////////// */
+/* /////////////// */
+
+.header-title {
+  background-color: #0b0c10;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.header-bar {
+  background-color: #FC4445;
 }
 
-.main-title {
-  font-family: 'Nunito Sans', serif;
-  font-size: 7rem;
+.header-link {
+  color: #0b0c10;
+  font-weight: bold;
+  font-size:1.5rem;
+  margin-left: 2rem;
 }
 
-.circle-text {
-  color: #F3E45F;
-  font-family: 'Nunito Sans', serif;
-  font-size: 1rem;
+/* /////////////// */
+/* /////////////// */
+/* /////////////// */
+/* LISTS */
+/* /////////////// */
+/* /////////////// */
+
+.list-header {
+  background-color:#002130;
+  border-left: solid #fff 1px;
+  border-right: solid #fff 1px;
 }
 
-.label-col {
-  margin-right:1rem;
-
+.list-of-ideas {
+  font-family:'PT Serif', serif;
+  padding-left:4rem;
+  padding-right:2rem;
+  font-size:1.25rem;
 }
 
-.circle {
-	border-radius: 50%;
-	width: 6rem;
-  height: 6rem;
-  background-color: #F3E45F;
+/* /////////////// */
+/* /////////////// */
+/* /////////////// */
+/* BODY */
+/* /////////////// */
+/* /////////////// */
+
+.content {
+  background-color:#cafafe; 
 }
 
-.circle:hover {
-  background-color: white;
-  border: blue;
+.body-text {
+  font-family:'PT Serif', serif;
+  font-size:1.5rem;
+}
+
+.body-text-padding {
+  padding-left:3rem;
+  padding-right:3rem;
+}
+
+.side {
+  background-color:#FC4445;
+  max-width:2rem;
+}
+
+/* /////////////// */
+/* /////////////// */
+/* /////////////// */
+/* IMAGES */
+/* /////////////// */
+/* /////////////// */
+
+.meetup {
+  max-width: 15rem; 
+  max-height: 15rem;
 }
